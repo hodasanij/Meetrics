@@ -7,6 +7,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { HomeComponent } from './components/home/home.component';
 import { CreateMeetingComponent } from './components/meetings/create-meeting/create-meeting.component';
 import { MeetingsComponent } from './components/meetings/meetings.component';
+import { ViewMeetingComponent } from './components/meetings/view-meeting/view-meeting.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
     children: [
       { path: '', component: MeetingsComponent },
       { path: 'create-meeting', component: CreateMeetingComponent },
+      { path: 'view-meeting', component: ViewMeetingComponent },
     ],
   },
   { path: '**', component: NotfoundComponent },

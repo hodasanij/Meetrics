@@ -1,5 +1,5 @@
--- create table for client meeting -> MEETINGS
-CREATE TABLE MEETING(
+-- create table for client meeting 
+CREATE TABLE MEETINGS(
     meetingId INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     userId INTEGER,
     meetingTopic VARCHAR(500) NOT NULL,
@@ -8,3 +8,6 @@ CREATE TABLE MEETING(
     addedOn DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (userId) REFERENCES USERS(userId)
 );
+
+
+

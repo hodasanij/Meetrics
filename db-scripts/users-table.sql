@@ -1,6 +1,6 @@
 -- connect to mysql
 -- /usr/local/mysql/bin/mysql -uroot -p
--- pass:hoda1295
+-- pass:********
 
 -- create our project database
 CREATE DATABASE meetrics_db;
